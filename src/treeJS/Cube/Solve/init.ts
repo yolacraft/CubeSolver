@@ -44,7 +44,7 @@ export const initSolve = () => {
 };
 
 async function fetchCubeSolution(cubeState: string): Promise<string> {
-    const url = 'http://45.93.249.131:8000/';
+    const url = 'http://45.93.249.131:7777/';
 
 
 
