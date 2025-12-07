@@ -23,7 +23,7 @@ export default function HUD({ camera }: HUDProps) {
     const [cubeState, setCubeState] = useState<string>("");
     const [solve, setSolve] = useState<number[]>([]);
     const [running, setRunning] = useState<boolean>(false);
-    const [speed, setSpeed] = useState<number>(5); // Standard: 3 Sekunden
+    const [speed, setSpeed] = useState<number>(3); // Standard: 3 Sekunden
 
     const incompletedRef = useRef<number[]>([]);
 
