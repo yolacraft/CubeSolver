@@ -170,8 +170,6 @@ export default function HUD({ camera }: HUDProps) {
                     </div>
                 )}
             </div>
-
-
         </div>
     );
 }
