@@ -41,4 +41,4 @@ export const init = (canvas: HTMLCanvasElement) => {
     animate();
 
     return camera;
-};
+}
