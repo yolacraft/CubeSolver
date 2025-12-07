@@ -9,6 +9,7 @@ export const getCamera = () => {
     return camera;
 };
 
+
 export const getScene = () => {
     return scene;
 };
