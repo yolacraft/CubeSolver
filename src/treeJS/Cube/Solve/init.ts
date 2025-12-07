@@ -44,7 +44,7 @@ export const initSolve = () => {
 };
 
 async function fetchCubeSolution(cubeState: string): Promise<string> {
-    const url = 'https://api.yolacraft.de';
+    const url = 'https://api.yolacraft.de/solve';
 
     try {
         const response = await fetch(url, {
