@@ -50,6 +50,7 @@ async function fetchCubeSolution(cubeState: string): Promise<string> {
     try {
         const response = await fetch(url, {
             method: 'POST',
+
             headers: {
                 'Content-Type': 'application/json',
             },
