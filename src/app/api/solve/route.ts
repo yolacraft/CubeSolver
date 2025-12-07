@@ -1,7 +1,7 @@
 export async function POST(req: Request) {
     const body = await req.json();
 
-    const response = await fetch("http://45.93.249.131:8000/solve", {
+    const response = await fetch("https://api.yolacraft.de/solve", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
