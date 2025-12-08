@@ -95,8 +95,8 @@ export const getSolve = () => {
 }
 
 export const setIdx = (idx: number) => {
-    completed   = solve.slice(0, idx-1);
-    incompleted = solve.slice(idx-1);
+    completed   = solve.slice(0, idx);
+    incompleted = solve.slice(idx);
 }
 
 
