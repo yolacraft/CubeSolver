@@ -16,7 +16,7 @@ export const CubeNotation: React.FC<CubeProps> = ({ action, state, idx, cubeStat
     const onHandleClick = () => {
         setToCubestate(cubeState);
         prevMoves.forEach(move => performMove(getNotationFromNumber(move)));
-        setIdx(idx-1);
+        setIdx(idx-2);
     }
 
     let textColor = "text-white";
